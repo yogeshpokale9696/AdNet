@@ -1,0 +1,14 @@
+ cd C:/cygwin64/home/YogeshAdnet/Adnet/assignment_2
+
+copy -y 
+cut - d
+paste - cap P
+undo - ecape - u 
+redo - ctrl+r
+
+
+
+
+
+
+
