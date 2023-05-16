@@ -17,11 +17,11 @@ int main()
 	char *message = "Server connected !";
 	int listenfd, len;
 	struct sockaddr_in servaddr, cliaddr;
-	bzero(&servaddr, sizeof(servaddr));
 	char client_addr[1024];
 	uint32_t net_addr;
 
 	// Create a TCP Socket
+	bzero(&servaddr, sizeof(servaddr));
 	listenfd = socket(AF_INET, SOCK_DGRAM, 0);		
 	servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
 	servaddr.sin_port = htons(PORT);
